@@ -1,7 +1,7 @@
 # Kubernetes-Custom_Pod_Autoscaler
 A Custom Pod Autoscaler for kubernetes that works with Latency and Cluster's costs metrrics
 
-#Usefull prompt commands
+# Usefull prompt commands
 helm install custom-pod-autoscaler-operator https://github.com/jthomperoo/custom-pod-autoscaler-operator/releases/download/v1.4.2/custom-pod-autoscaler-operator-v1.4.2.tgz
 
 helm install opencost --repo https://opencost.github.io/opencost-helm-chart opencost --namespace default
